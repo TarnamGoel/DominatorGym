@@ -15,6 +15,10 @@ body{
     text-align: center;
 }
 
+.form input{
+    background-color: white;
+}
+
 /* Text */
 h1{
     color: white;
