@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+/* Return Button */
+.home{
+    border: 2px solid white;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.form{
+    text-align: center;
+}
+
+/* Text */
+h1{
+    color: white;
+    text-shadow: 1px 1px 5px white;
+    text-align: center;
+}
+
+.text{
+    color: blueviolet;
+}
+
+/* Button */
+.button button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 4px 12px;
+    color: blueviolet;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px white;
+    font-weight: 700;
+}
+
+.button button:hover{
+    background-color: white;
+}
+
+/* Output Text */
+#output{
+    color: white;
+    font-size: xx-large
+}

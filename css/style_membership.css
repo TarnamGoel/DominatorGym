@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar */
+.navbar{
+    background-color: gold;
+    height: 50px;
+    text-align:end;
+}
+
+.navbar h1{
+    text-align: center;
+}
+
+.navbar li{
+    font-size: x-large;
+    padding: 10px 15px;
+}
+
+.navbar li a{
+    text-decoration: double;
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 6px 6px;
+}
+
+.navbar li a:hover{
+    text-decoration: underline ;
+}
+
+/* Heading */
+.heading{
+    text-align: center;
+    background-color: black;
+}
+
+.heading h1{
+    color: gold;
+    padding: 7px;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 7px;
+}
+
+/* Offer */
+.offer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.offer h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.offer p{
+    color: purple;
+    font-size: 70px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Price */
+.price{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.price h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.price p{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.price p span{
+    font-size: 20px;
+    color: black;
+    text-decoration: line-through;
+}
+
+/* Form */
+.form{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-top: 15px;
+    margin-bottom: 2%;
+}
+
+.form div{
+    background-color: wheat;
+    margin: 8px 4px;
+}
+
+/* Button */
+.button button{
+    padding: 4px 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.button button:hover{
+    background-color: wheat;
+    border-width: 2px;
+}
+
+@media only screen and (max-width:539px){
+    .offer p{
+        color: purple;
+        font-size:30px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width:396px){
+    .heading h1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:285px){
+    .heading h1{
+        font-size: 30px;
+    }
+}

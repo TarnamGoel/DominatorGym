@@ -1,0 +1,401 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Heading */
+.heading{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+}
+
+.heading_span{
+    color: gold;
+}
+
+/* Navbar */
+.nav-bar{
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.495);
+
+}
+
+.nav-bar li{
+    margin: auto;
+    list-style: none;
+}
+
+.nav-bar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-bar li a span{
+    font-weight:bolder;
+}
+
+.nav-bar li a:hover{
+    color: rgba(255, 255, 255, 0.598);
+}
+
+.nav-bar li a span:hover{
+    color: gold;
+    text-decoration:underline;
+}
+
+/* Hamburger */
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+/* Home page */
+#home{
+    width: 21%;
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color:rgba(255, 255, 255, 0.856);
+    text-align: center;
+    padding: 5px 2px;
+    border: 2px solid black;
+    border-radius: 18px;
+    box-shadow:5px 5px 5px 5px rgba(0, 0, 0, 0.68);
+}
+
+#home img{
+    padding: 0px;
+    margin-bottom: -20px;
+}
+
+#home h1 span{
+    color: red;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+}
+
+/* Offer */
+.offer{
+    margin-top: 100px;
+    text-align: center;  
+}
+
+.offer p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.offer p span{
+    color: gold;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 700;
+}
+
+.offer h2{
+    background-color: black;
+    color: gold;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.offer h2 span{
+    color: green;
+}
+
+/* About Us */
+#about{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px 10px;
+}
+
+/* Services */
+#services{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#text h1{
+    padding-left: 25px;
+    font-size: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: gold;
+}
+
+#text ul{
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#text li{
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    color: red;
+}
+
+/* Facilities */
+.facilities{
+    background-color: black;
+    margin: 0%;
+    padding: 0px;
+    display: flex;
+}
+
+.facility_text h1{
+    color: gold;
+    font-size: 60px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.facility_text{
+    width: 50%;
+}
+
+.facility_text ul{
+    margin: 0px;
+}
+
+.facility_text ul li{
+    color: red;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+/* Photos */
+.gym_photos{
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+}
+
+/* Trainers */
+#trainers{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.pictures{
+    display: flex;
+    margin: auto;
+}
+
+#trainers h1{
+    color: gold;
+    font-size: 60px;
+}
+
+.about_trainers{
+    color: white;
+    font-size: x-large;
+    padding: 10px 140px;
+    word-spacing: 10px;
+}
+
+.about_trainers span{
+    font-weight: bolder;
+}
+
+/* Contact Box */
+#contact{
+    background-color: rgba(128, 128, 128, 0.203);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.num{
+    display: flex;
+}
+
+.num p{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.address img{
+    width: 34px;
+    height: auto;
+}
+
+.address{
+    font-size: 34px;
+    padding-left: 20px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.social_media{
+    padding-left: 20px;
+}
+
+.insta{
+    width: 30px;
+    height: auto;
+}
+
+/* Footer */
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:1074px){
+    .pictures{
+        flex-direction: column;
+    }
+    .pictures img{
+        width: 98%;
+    }
+    .about_trainers{
+        padding: 10px 20px;
+    }
+    .facilities{
+        flex-direction: column;
+        text-align: center;
+    }
+    .facility_text{
+        text-align: center;
+        margin-left: 28%;
+        padding-top: 20px;
+    }
+    .facility_text ul{
+        list-style: none;
+        padding-top: 15px;
+    }
+    .facility_text ul li{
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width:834px){
+    body{
+        background-color: black;
+    }
+    .nav-bar{
+        flex-direction: column;
+        height: auto;
+        display: none;
+    }
+    #home{
+        width: 90%;
+        height: auto;
+    }
+    .offer{
+        color: white;
+    }
+    #services{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    #services img{
+        width: 90%;
+    }
+    #text li{
+        list-style: circle;
+        padding-bottom: 10px;
+    }
+    #contact{
+        background-color: rgba(255, 255, 255, 0.272);
+    }
+    .bg3 img{
+        width: 90%;
+    }
+    .gym_photos img{
+        width: 90%;
+    }
+    .facility_text ul{
+        list-style: circle;
+        width: 90%;
+    }
+    .facility_text ul li{
+        width: 90%;
+    }
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+        display: block;
+    }
+    .heading{
+        text-align: left;
+    }
+}
+@media only screen and (max-width:440px){
+    .burger{
+        top: 45px;
+        right: 40%;
+    }
+    .nav-bar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:395px){
+    .burger{
+        top: 60px;
+        right: 5%;
+    }
+    .nav-bar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .facility_text ul li{
+        font-size: 25px;
+        word-spacing: 10px;
+        padding-top: 20px;
+    }
+    .facility_text{
+        margin-left: 10%;
+    }
+    #text ul li{
+        font-size: 25px;
+        word-spacing: 10px;
+        padding-top: 20px;
+    }
+}
